@@ -1,3 +1,24 @@
-Has d'actualitzar el fitxer al Github perquè crec que no és la versió definitiva que m'havies ensenyat.
+Exercici 1. 2/2
 
-El 3 té errades que recordo que no tenies, i el 4 i el 5 no hi són.
+Exercici 2. 2/2
+
+Exercici 3. 2/2
+
+Exercici 4. 1,9/2
+  def poblacio_insectes ( P0, r, t):
+      poblacio = []
+      for i in range (t):
+          P = P0 * (1+r)
+          P0 = P
+          poblacio.append(P)
+      return poblacio
+  
+  p0 = 1000
+  r= 0.01
+  t=366 ---------------------------------> Es demanava per t = 365
+  
+  print(poblacio_insectes ( p0, r, t))
+
+Exercici 5. 2/2
+
+Nota: 9,9/10
